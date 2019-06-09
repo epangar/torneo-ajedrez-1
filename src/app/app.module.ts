@@ -7,6 +7,7 @@ import { PersonalDataComponent } from './personal-data/personal-data.component';
 import { PresentationComponent } from './presentation/presentation.component';
 import { InstructionsComponent } from './instructions/instructions.component';
 import { ParentComponent } from './parent/parent.component';
+import { NightComponent } from './night/night.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ParentComponent } from './parent/parent.component';
     PersonalDataComponent,
     PresentationComponent,
     InstructionsComponent,
-    ParentComponent
+    ParentComponent,
+    NightComponent
   ],
   imports: [
     BrowserModule,
