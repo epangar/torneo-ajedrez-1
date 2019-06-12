@@ -8,6 +8,10 @@ import { PresentationComponent } from './presentation/presentation.component';
 import { InstructionsComponent } from './instructions/instructions.component';
 import { ParentComponent } from './parent/parent.component';
 import { NightComponent } from './night/night.component';
+import { TotalComponent } from './total/total.component';
+
+import { StoreModule } from '@ngrx/store';
+import { nightReducer } from './store/night.reducer';
 
 @NgModule({
   declarations: [
@@ -16,11 +20,13 @@ import { NightComponent } from './night/night.component';
     PresentationComponent,
     InstructionsComponent,
     ParentComponent,
-    NightComponent
+    NightComponent,
+    TotalComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    StoreModule.forRoot({ count: nightReducer })
   ],
   providers: [],
   bootstrap: [AppComponent]

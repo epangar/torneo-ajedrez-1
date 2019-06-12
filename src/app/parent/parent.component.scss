@@ -1,0 +1,57 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.in-main{
+    display: flex;
+    flex-direction: column;
+}
+
+.bared::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .bared::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  .bared::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  .bared::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.title{
+    background-color: red
+}
+
+.presentation{
+    background-color: blue
+}
+
+.instructions{
+    background-color: green
+}
+
+.personal{
+    background-color: goldenrod
+}
+
+.night{
+    background-color: #00c0d5
+}
+
+.colored{
+    background-color: #bfbfbf
+}
+
+.total{
+    background-color: #bfbfbf;
+}

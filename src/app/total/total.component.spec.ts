@@ -1,23 +1,23 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NightComponent } from './night.component';
+import { TotalComponent } from './total.component';
 
-describe('NightComponent', () => {
-  let component: NightComponent;
-  let fixture: ComponentFixture<NightComponent>;
+describe('TotalComponent', () => {
+  let component: TotalComponent;
+  let fixture: ComponentFixture<TotalComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ NightComponent ]
+      declarations: [ TotalComponent ]
     })
     .compileComponents();
-  }))
+  }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NightComponent);
+    fixture = TestBed.createComponent(TotalComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
-  })
+  });
 
   it('should create', () => {
     expect(component).toBeTruthy();
